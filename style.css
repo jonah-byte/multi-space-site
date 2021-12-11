@@ -1,0 +1,64 @@
+
+body {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5b/Grayscale_%28182824419%29.jpeg');
+        background-repeat: cover;
+        background-size: color;
+      }
+
+*{
+  color:black;
+}
+h1{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+main{
+  font-family: cochin, serif;
+  text-align: justify;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 25px;
+}
+
+nav a{
+ text-decoration: none;
+ color: blue;
+}
+
+ nav a:hover{
+  background-color: orange;
+  color: lightblue;
+}
+
+a:active{
+  background-color: orange;
+  color: lightskyblue;
+}
+h1:first-letter{
+  font-size: 2em;
+}
+main a:hover{
+  background-color: aquamarine;
+  color: orange; 
+}
+img{
+  width: 40%;
+  margin: 30px;
+}
+img[alt]{
+  border:2px black double;
+}
+#video{
+  text-align: center;
+  margin: auto;
+
+}
+[href="#video"]{
+  color: blue;
+}
+article h2:first-letter{
+  font-size: 40px;
+  font-family: fantasy;
+}
